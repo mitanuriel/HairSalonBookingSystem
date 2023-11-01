@@ -5,16 +5,20 @@ import java.awt.*;
 
 public class Menu {
 
+      //composing basic GUI
     public void toMakeButtons(){
         Frame f = new Frame();
         Button b1 = new Button("ADD TIME");
-        b1.setBounds(150, 300, 220, 50);
+        b1.setBounds(150, 100, 220, 50);
+        b1.setBackground(Color.PINK);
         f.add(b1);
         Button b2 = new Button("CHANGE TIME");
-        b2.setBounds(150, 400, 220, 50);
+        b2.setBounds(150, 150, 220, 50);
+        b2.setBackground(Color.PINK);
         f.add(b2);
         Button b3 = new Button("DELETE TIME");
-        b3.setBounds(150, 500, 220, 50);
+        b3.setBounds(150, 200, 220, 50);
+        b3.setBackground(Color.pink);
         f.add(b3);
         f.setSize(500, 500);
         f.setLayout(null);

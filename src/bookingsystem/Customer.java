@@ -2,11 +2,30 @@ package bookingsystem;
 import java.time.LocalTime;
 import java.util.Locale;
 public class Customer {
-    private LocalTime time;
+
+    public void setDate(String date) {
+        this.date = date;
+    }
+
+    public void setTimeSlot(String timeSlot) {
+        this.timeSlot = timeSlot;
+    }
+
+    private String date;
+    private String timeSlot;
+
     private String name;
     private String email;
     private int phoneNumber;
     private int id;
+
+    public String getDate() {
+        return date;
+    }
+
+    public String getTimeSlot() {
+        return timeSlot;
+    }
 
     public int getId() {
         return id;
@@ -22,9 +41,10 @@ public class Customer {
     //TODO: getId, setId, toString ad id field, add to constuctor
 
 
-    Customer (LocalTime time,String name, String email, int phoneNumber, int id){
+    Customer (String date, String timeSlot, String name, String email, int phoneNumber, int id){
 
-        setTime(time);
+        setDate(date);
+        setTimeSlot(timeSlot);
         setName(name);
         setEmail(email);
         setPhoneNumber(phoneNumber);
@@ -34,13 +54,6 @@ public class Customer {
 
 
 
-    public LocalTime getTime() {
-        return time;
-    }
-
-    public void setTime(LocalTime time) {
-        this.time = time;
-    }
 
     public String getName() {
         return name;
@@ -71,7 +84,7 @@ public class Customer {
     @Override
     public String toString() {
         return "Customer{" +
-                "time =" + time +
+                "date =" + date +
                 ", name='" + name + '\'' +
                 ", id = " + id + '\'' +
                 ", email='" + email + '\'' +

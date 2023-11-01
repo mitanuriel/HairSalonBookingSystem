@@ -32,14 +32,14 @@ public class Hairdresser {
         this.username = username;
     }
 
-    public boolean LogIn(Hairdresser Harry){
+    public boolean LogIn(){
 
         System.out.println("Enter username: ");
-        String getPassword = scanner.next();
-        System.out.println("Enter password: ");
         String getUsername = scanner.next();
+        System.out.println("Enter password: ");
+        String getPassword = scanner.next();
 
-        if (getPassword.equals(Harry.getPassword()) && getUsername.equals(Harry.getUsername())) {
+        if (getPassword.equals(this.getPassword()) && getUsername.equals(this.getUsername())) {
             System.out.println("Login successful.");
             return true;
         } else {
