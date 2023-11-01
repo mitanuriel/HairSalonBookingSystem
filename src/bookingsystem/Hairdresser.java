@@ -32,28 +32,23 @@ public class Hairdresser {
         this.username = username;
     }
 
-    public void LogIn(){
-        boolean loggedIn = true;
+    public boolean LogIn(Hairdresser Harry){
 
-        if (loggedIn){
-            System.out.println("Enter username: ");
-            String getPassword = scanner.next();
+        System.out.println("Enter username: ");
+        String getPassword = scanner.next();
+        System.out.println("Enter password: ");
+        String getUsername = scanner.next();
 
-            System.out.println("Enter password: ");
-            String getUsername = scanner.next();
-        }
-
-    }
-
-    public boolean Validate(Hairdresser Harry) {
-        if (this.password.equals(Harry.getPassword()) && this.username.equals(Harry.getUsername())) {
+        if (getPassword.equals(Harry.getPassword()) && getUsername.equals(Harry.getUsername())) {
             System.out.println("Login successful.");
+            return true;
         } else {
             System.out.println("Login failed.");
-
+            return false;
         }
-        return false;
     }
+
+
 }
 
 
