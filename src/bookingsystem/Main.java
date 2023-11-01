@@ -18,7 +18,14 @@ public class Main {
         Hairdresser Harry = new Hairdresser("123", "123");
         Hairdresser check = new Hairdresser("223", "123");
 
-        Harry.LogIn();
+
+        if (Harry.LogIn(Harry)) {
+            Menu menu = new Menu();
+            menu.printMenu();
+            menu.toMakeButtons();
+        }
+
+
 
         TimeManager timeManager = new TimeManager();
         Customer customer = new Customer(LocalTime.of(12, 30),"A","b",889,0);
