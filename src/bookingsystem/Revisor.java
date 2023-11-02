@@ -1,46 +1,47 @@
 package bookingsystem;
-
+import java.util.Scanner;
 public class Revisor {
 
     private String userNameRevisor;
-    private String passwordRevisor;
+    private int HashcodepasswordRevisor;
+
+    Scanner scanner = new Scanner(System.in);
 
 
 
-    private boolean isLoggedIn;
 
-    static Revisor createRevisor(String userNameRevisor, String passwordRevisor) {
-        return new Revisor(userNameRevisor, passwordRevisor);
+
+    Revisor(String userNameRevisor) {
+       this.userNameRevisor = userNameRevisor;
+       this.HashcodepasswordRevisor = 48690; // this is hashcode for password 123
     }
 
 
-    public boolean isLoggedIn() {
-        return isLoggedIn;
-    }
+    public boolean LogIn(){
 
-    public boolean isLoggedIn(boolean isLoggedIn) {
-        this.isLoggedIn = isLoggedIn;
-        return isLoggedIn;
-    }
+        System.out.println("Enter Revisor username: ");
+        String Username = scanner.next();
+        System.out.println("Enter Revisor password: ");
+        String Password = scanner.next();
 
-    Revisor(String userNameRevisor, String passwordRevisor){
-        this.passwordRevisor = passwordRevisor;
-        this.userNameRevisor = userNameRevisor;
+        if (Username.equals(this.getUserNameRevisor()) && Password.hashCode() == HashcodepasswordRevisor ) {
+            System.out.println("Login successful.");
+            return true;
+        } else {
+            System.out.println("Login failed.");
+            return false;
+        }
     }
 
     public void setUserNameRevisor(String userNameRevisor) {
         this.userNameRevisor = userNameRevisor;
     }
 
-    public void setPasswordRevisor(String passwordRevisor) {
-        this.passwordRevisor = passwordRevisor;
-    }
-
     public String getUserNameRevisor() {
         return userNameRevisor;
     }
 
-    public String getPasswordRevisor() {
-        return passwordRevisor;
+    public int getHashcodepasswordRevisor() {
+        return HashcodepasswordRevisor;
     }
 }

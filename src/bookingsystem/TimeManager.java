@@ -10,39 +10,8 @@ public class TimeManager {
     private ArrayList<Customer> times;
 
 
-   /*
 
-   // private String desiredDate = "2023-11-02";
-
-
-    /* public void Appointment(String date, String timeSlot) {
-        this.date = date;
-        this.timeSlot = timeSlot;
-    } */
-
-
-
-    /*private List<TimeManager> appointments;
-
-    public void AppointmentScheduler() {
-        appointments = new ArrayList<>();
-    }
-
-    public void addAppointment(String date, String timeSlot) {
-        appointments.add(new TimeManager());
-    }
-
-    public List<String> findAvailableTimeSlots(String desiredDate) {
-        List<String> availableTimeSlots = new ArrayList<>();
-        return availableTimeSlots;
-    }
-*/
-
-    // Hairdresser is open between 10am -18pm
-
-
-
-
+//checking availability for a desired date
     public boolean checkAvailability (String date, String timeSlot){
 
         boolean isSlotAvailable = true;

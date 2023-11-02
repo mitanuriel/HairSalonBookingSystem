@@ -36,11 +36,6 @@ public class Customer {
     }
 
 
-
-
-    //TODO: getId, setId, toString ad id field, add to constuctor
-
-
     Customer (String date, String timeSlot, String name, String email, int phoneNumber, int id){
 
         setDate(date);
@@ -50,9 +45,6 @@ public class Customer {
         setPhoneNumber(phoneNumber);
         setId(id);
     }
-
-
-
 
 
     public String getName() {

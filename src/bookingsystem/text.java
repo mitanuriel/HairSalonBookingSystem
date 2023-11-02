@@ -4,7 +4,7 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 class text extends JFrame implements ActionListener {
-    // JTextField
+    // composing text field in GUI via JTextField
     static JTextField t;
     static JTextField t2;
     static JTextField t3;
@@ -32,8 +32,8 @@ class text extends JFrame implements ActionListener {
     {
     }
 
-    // main class
-    public static void main(String[] args)
+    // main class for GUI
+    public static void Gui()
     {
         // create a new frame to store text field and button
         f = new JFrame("textfield");
@@ -50,15 +50,15 @@ class text extends JFrame implements ActionListener {
         b2 = new JButton ("Change time");
         b3 = new JButton("Delete time");
 
-        // create a object of the text class
+
         text te = new text();
 
-        // addActionListener to button
+
         b.addActionListener(te);
         b2.addActionListener(te);
         b3.addActionListener(te);
 
-        // create a object of JTextField with 16 columns and a given initial text
+        // create a object of JTextField  and a given initial text
         t = new JTextField("enter the text", 16);
         t2 = new JTextField("Edit time" );
         t3 = new JTextField("Enter customer's id");
@@ -66,7 +66,7 @@ class text extends JFrame implements ActionListener {
         // create a panel to add buttons and textfield
         JPanel p = new JPanel();
 
-        // add buttons and textfield to panel
+
 
         f.setLayout(null);
         f.setVisible(true);
@@ -107,10 +107,10 @@ class text extends JFrame implements ActionListener {
 
 
 
-        // add panel to frame
 
 
-        // set the size of frame
+
+
         f.setSize(300, 300);
 
         f.show();
