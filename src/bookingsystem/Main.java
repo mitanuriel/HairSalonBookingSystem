@@ -1,9 +1,6 @@
 package bookingsystem;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
-import java.time.LocalTime;
 
 
 public class Main {
@@ -28,8 +25,8 @@ public class Main {
             text gui = new text();
             text.Gui();
         }
-        // Constructor for Revisor login
-        Revisor Henry = new Revisor("Henry");
+        // Constructor for Accountant login
+        Accountant Henry = new Accountant("Henry");
         Henry.LogIn();
 
        //booking appointment system: search functionality
