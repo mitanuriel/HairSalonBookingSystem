@@ -6,6 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="7b5e0fc2-1070-4139-af73-b216a19867b3" name="Changes" comment="Merge remote-tracking branch 'github/master'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bookingsystem/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookingsystem/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bookingsystem/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookingsystem/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bookingsystem/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bookingsystem/Revisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookingsystem/Revisor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bookingsystem/TimeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookingsystem/TimeManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bookingsystem/text.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookingsystem/text.java" afterDir="false" />
     </list>
     <list id="a75001ec-eaf9-4f9b-be0a-5965c1ea5077" name="Changes by admin" comment="Changes by admin" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +27,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
-      <list>
-        <option value="My Name &lt;vovartt31445@gmail.com&gt;" />
-      </list>
-    </option>
     <option name="PUSH_TAGS">
       <GitPushTagMode>
         <option name="argument" value="--tags" />
@@ -34,9 +35,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 8
-}</component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
   <component name="ProjectId" id="2XWuYieBv32D3MUfuX9h7QV8bu4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -49,10 +50,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -138,51 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698943496728</updated>
     </task>
-    <task id="LOCAL-00007" summary="Merge remote-tracking branch 'github/master'">
-      <option name="closed" value="true" />
-      <created>1701080349175</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1701080349175</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Merge remote-tracking branch 'github/master'">
-      <option name="closed" value="true" />
-      <created>1701288202958</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1701288202958</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Merge remote-tracking branch 'github/master'">
-      <option name="closed" value="true" />
-      <created>1701288366272</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1701288366272</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Changes by admin" />
-    <MESSAGE value="Change Revisor to Accountant" />
     <MESSAGE value="Merge remote-tracking branch 'github/master'" />
     <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'github/master'" />
   </component>
